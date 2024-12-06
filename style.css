@@ -1,0 +1,372 @@
+.human-flight-header-img,
+.human-flight-section01,
+.human-flight-section02,
+.human-flight-section03,
+.human-flight-section04,
+.falcon9-header-img,
+.falcon9-section01,
+.falcon9-section02,
+.falcon9-carousel01-container01,
+.falcon9-carousel01-container02,
+.falcon9-carousel01-container03,
+.falcon9-carousel01-container04,
+.falcon9-carousel01-container05,
+.home-header-img,
+.home-section01,
+.home-section02,
+.home-section03 {
+  background-position: center;
+  background-size: cover; /* Garantindo que a imagem cubra toda a área do elemento */
+  background-repeat: no-repeat;
+  filter: brightness(0.9);
+  width: 100%; /* Definindo a largura de todos os elementos para 100% */
+  height: 300px; /* Ajuste a altura conforme necessário */
+}
+
+.logo-size {
+  width: 150px;  /* Define o tamanho da largura para 150px */
+  height: auto;  /* Mantém a proporção da imagem */
+}
+
+#imgx {
+  max-width: 150px;  /* Define o tamanho máximo da largura para 150px */
+  height: auto;  /* Ajusta a altura automaticamente para manter a proporção da imagem */
+}
+
+
+.img_human {
+  max-width: 150px; /* Ajuste o tamanho máximo da logo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+
+.human-flight-section-content, .home-header-content, .section-content {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+}
+.human-flight-section-content h3, .home-header-content h3, .section-content h3 {
+  font-size: 16px;
+}
+.human-flight-section-content h1, .home-header-content h1, .section-content h1 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.human-flight-section-content p, .home-header-content p, .section-content p {
+  text-transform: none;
+  line-height: 2;
+}
+.human-flight-section-content button, .home-header-content button, .section-content button {
+  padding: 12px 30px;
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  font-size: 13px;
+  border: 1.5px solid;
+}
+
+.sections-style {
+  min-height: 100vh;
+  background-color: #020101;
+}
+
+.obc-logo {
+  max-width: 220px;
+}
+
+.nav-link a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 400ms ease;
+}
+.nav-link a:hover {
+  color: #b9b9b9;
+}
+
+.generic-header-content {
+  margin-top: 110px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+}
+.generic-header-content h3 {
+  font-size: 17px;
+}
+.generic-header-content h1 {
+  font-weight: 600;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+.home-header-img {
+  background-image: url("../img/home/01.jpg");
+}
+
+.home-header-content {
+  margin-top: 110px;
+}
+
+.home-section01 {
+  background-image: url("../img/home/03.jpg");
+}
+
+.width-450 {
+  max-width: 450px;
+}
+
+.home-section02 {
+  background-image: url("../img/home/02.gif");
+}
+
+.home-section03 {
+  background-image: url("../img/home/04.jpg");
+}
+
+.width-550 {
+  max-width: 550px;
+}
+
+.falcon9-header-img {
+  background-image: url("../img/falcon9/01.jpg");
+}
+
+.falcon9-numbers {
+  min-height: 170px;
+  background-color: #020101;
+  color: #fff;
+}
+.falcon9-numbers h1 {
+  font-size: 50px;
+}
+.falcon9-numbers h3 {
+  font-size: 18px;
+}
+
+.falcon9-section01 {
+  background-image: url("../img/falcon9/02.jpg");
+}
+
+.falcon9-carousel01-container01 {
+  background-image: url("../img/falcon9/03.jpg");
+}
+
+.falcon9-carousel01-container02 {
+  background-image: url("../img/falcon9/04.jpg");
+}
+
+.falcon9-carousel01-container03 {
+  background-image: url("../img/falcon9/05.jpg");
+}
+
+.falcon9-carousel01-container04 {
+  background-image: url("../img/falcon9/06.jpg");
+}
+
+.falcon9-carousel01-container05 {
+  background-image: url("../img/falcon9/07.jpg");
+}
+
+.falcon9-merlin-content, .falcon9-carousel01-items {
+  max-width: 400px;
+  position: relative;
+  left: 160px;
+  top: 120px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.falcon9-merlin-content h3, .falcon9-carousel01-items h3, .falcon9-merlin-content p, .falcon9-carousel01-items p {
+  margin-bottom: 12px;
+}
+.falcon9-merlin-content .table td, .falcon9-carousel01-items .table td {
+  background-color: transparent;
+  color: #fff;
+  font-size: 13px;
+}
+.falcon9-merlin-content .table td:last-child, .falcon9-carousel01-items .table td:last-child {
+  text-transform: none;
+}
+.falcon9-merlin-content .falcon9-carousel01-text, .falcon9-carousel01-items .falcon9-carousel01-text, .falcon9-merlin-content .falcon9-merlin-text, .falcon9-carousel01-items .falcon9-merlin-text {
+  text-transform: none;
+  font-size: 15px;
+}
+
+.falcon9-section02 {
+  background-image: url("../img/falcon9/08.jpg");
+}
+
+.falcon9-merlin-content {
+  position: unset;
+  top: auto;
+  left: auto;
+}
+
+.falcon9-carousel02-style {
+  background-color: #020101;
+}
+.falcon9-carousel02-style img {
+  max-height: 110vh;
+}
+
+.email-color {
+  color: #555252;
+}
+
+.human-flight-header-img {
+  background-image: url("../img/humanFlight/01.jpg");
+}
+
+.human-contact {
+  min-height: 150px;
+  background-color: #020101;
+  color: #fff;
+}
+.human-contact p {
+  font-size: 17px;
+}
+
+.human-flight-section01 {
+  background-image: url("../img/humanFlight/02.jpg");
+}
+
+.human-flight-section-content {
+  max-width: 500px;
+}
+.human-flight-section-content h1 {
+  font-size: 50px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.human-flight-section-content h3 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.human-flight-section02 {
+  background-image: url("../img/humanFlight/03.jpg");
+}
+
+.human-flight-section03 {
+  background-image: url("../img/humanFlight/04.jpg");
+}
+
+.human-flight-section04 {
+  background-image: url("../img/humanFlight/05.jpg");
+}
+
+footer {
+  background-color: #020101;
+  font-size: 13px;
+}
+footer p {
+  color: #555252;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 400ms ease;
+}
+footer a:hover {
+  color: #b9b9b9;
+}
+
+
+@media (max-width: 768px) {
+  .falcon9-carousel01-items {
+    position: unset;
+    margin: 170px auto 20px auto;
+  }
+  .falcon9-carousel01-items .table td {
+    font-size: 12px;
+  }
+  .human-flight-section01,
+  .human-flight-section03 {
+    background-position: left;
+  }
+}
+@media (max-width: 550px) {
+  .carousel-item {
+    padding: 0 15px;
+  }
+  .generic-header-content {
+    margin-top: 140px;
+  }
+  .generic-header-content h1 {
+    font-size: 55px;
+  }
+  .generic-header-content h3 {
+    font-size: 14px;
+  }
+  .section-content p, .home-header-content p, .human-flight-section-content p {
+    font-size: 13px;
+    line-height: 2;
+  }
+  .human-contact p {
+    font-size: 14px;
+  }
+  .human-flight-section-content h1 {
+    font-size: 40px;
+  }
+}
+@media (max-height: 500px) {
+  .falcon9-carousel01-items {
+    margin: 90px auto 20px auto;
+  }
+}
+@media (max-width: 491px) {
+  .pages-btn {
+    width: 100%;
+  }
+  .human-flight-section-content h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .section-content h3, .home-header-content h3, .human-flight-section-content h3 {
+    font-size: 15px;
+  }
+  .section-content h1, .home-header-content h1, .human-flight-section-content h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .section-content button, .home-header-content button, .human-flight-section-content button {
+    font-size: 12px;
+  }
+  .carousel-item {
+    padding: 0 7px;
+  }
+  .falcon9-carousel01-items .table td {
+    font-size: 11px;
+  }
+  .falcon9-carousel01-items .falcon9-carousel01-text {
+    font-size: 13px;
+  }
+  .falcon9-merlin-content .falcon9-merlin-text {
+    font-size: 13px;
+  }
+  .human-flight-section-content h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  .human-flight-section-content h3 {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .obc-logo {
+    width: 160px;
+  }
+  .generic-header-content h1 {
+    font-size: 45px;
+  }
+  .human-flight-section-content h1 {
+    font-size: 28px;
+  }
+  .human-flight-section-content h3 {
+    font-size: 12px;
+  }
+}
